@@ -1,0 +1,70 @@
+{
+    "name": "edisoncor-theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#292A2B",
+        "editor.foreground": "#E6E6E6",
+        "editorCursor.foreground": "#FFCC00",
+        "editor.lineHighlightBackground": "#3E3E3E",
+        "editorLineNumber.foreground": "#4B4B4B",
+        "editor.selectionBackground": "#515151",
+        "editor.inactiveSelectionBackground": "#3A3D41",
+        "editorIndentGuide.background": "#3E3E3E",
+        "editorIndentGuide.activeBackground": "#707070",
+        "list.activeSelectionForeground": "#FFD700",
+        "gitDecoration.addedResourceForeground": "#00FF00",
+        "gitDecoration.modifiedResourceForeground": "#0000FF",
+        "gitDecoration.conflictingResourceForeground": "#FFA500"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#B4B4B4",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#19F9D8"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#FF75B5"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#FFB86C"
+            }
+        },
+        {
+            "scope": "constant",
+            "settings": {
+                "foreground": "#FF2C6D"
+            }
+        },
+        {
+            "scope": "function",
+            "settings": {
+                "foreground": "#FFB86C"
+            }
+        },
+        {
+            "scope": "type",
+            "settings": {
+                "foreground": "#8BE9FD"
+            }
+        },
+        {
+            "scope": "class",
+            "settings": {
+                "foreground": "#FFB86C"
+            }
+        }
+    ]
+}

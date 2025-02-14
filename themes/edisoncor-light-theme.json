@@ -1,0 +1,70 @@
+{
+    "name": "Edisoncor Light Theme",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FFFFFF",
+        "editor.foreground": "#000000",
+        "editorCursor.foreground": "#FFCC00",
+        "editor.lineHighlightBackground": "#F0F0F0",
+        "editorLineNumber.foreground": "#A0A0A0",
+        "editor.selectionBackground": "#D0D0D0",
+        "editor.inactiveSelectionBackground": "#E0E0E0",
+        "editorIndentGuide.background": "#E0E0E0",
+        "editorIndentGuide.activeBackground": "#C0C0C0",
+        "list.activeSelectionBackground": "#FFD700",
+        "gitDecoration.addedResourceForeground": "#00FF00",
+        "gitDecoration.modifiedResourceForeground": "#0000FF",
+        "gitDecoration.conflictingResourceForeground": "#FFA500"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#808080",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#008000"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#0000FF"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#800080"
+            }
+        },
+        {
+            "scope": "constant",
+            "settings": {
+                "foreground": "#FF0000"
+            }
+        },
+        {
+            "scope": "function",
+            "settings": {
+                "foreground": "#800080"
+            }
+        },
+        {
+            "scope": "type",
+            "settings": {
+                "foreground": "#000080"
+            }
+        },
+        {
+            "scope": "class",
+            "settings": {
+                "foreground": "#800080"
+            }
+        }
+    ]
+}
