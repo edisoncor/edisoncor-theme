@@ -49,7 +49,7 @@
                 "support.type.property-name.json",
                 "storage.modifier"
             ],
-            "settings": { "foreground": "#FF75C9" }
+            "settings": { "foreground": "#FF75C9", "fontStyle": "bold" }
           },
           {
             "scope": "constant",
@@ -65,14 +65,18 @@
           },
           {
             "scope": "comment",
-            "settings": { "foreground": "#6272A4", "fontStyle": "italic" }
+            "settings": { "foreground": "#6272A4", "fontStyle": "bold italic" }
           },
           {
             "scope": "keyword.operator",
             "settings": { "foreground": "#FFB86C" }
           },
           {
-            "scope": "meta.decorator",
+            "scope": [
+                "meta.decorator",
+                "keyword.control.import.java",
+                "keyword.control.package.java"
+            ],
             "settings": { "foreground": "#00FFFF", "fontStyle": "italic" }
           },
           {
@@ -85,7 +89,7 @@
           },
           {
             "scope": "comment.block.html, comment.block.xml",
-            "settings": { "foreground": "#6272A4", "fontStyle": "italic" }
+            "settings": { "foreground": "#6272A4", "fontStyle": "bold italic" }
           }
 
 
