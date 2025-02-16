@@ -1,10 +1,14 @@
 # Theme Samples
 
-This sample color theme extension contains two TextMate themes. 
+Este tema de color de muestra es para uso personal y contiene dos temas TextMate.
 
 Text Mate themes describe the theming rules used for syntax highlighting. Each rule consists of one or more scope selectors and a set of styles. To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
 You can directly use .tmTheme files in your extensions or import/convert them with VS Code's extension generator [yo code](https://code.visualstudio.com/api/get-started/your-first-extension).
+
+## Repositorio
+
+Puedes encontrar el repositorio del tema en [GitHub](https://github.com/edisoncor/edisoncor-theme).
 
 ## Demo
 
