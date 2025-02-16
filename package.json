@@ -11,6 +11,7 @@
 	"engines": {
 		"vscode": "*"
 	},
+    "icon": "icons/edisoncor-theme.png",
 	"contributes": {
 		"themes": [
 			{
