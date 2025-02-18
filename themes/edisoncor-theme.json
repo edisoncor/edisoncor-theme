@@ -19,8 +19,7 @@
         "sideBar.background": "#0f1a1e",
         "statusBar.background": "#1593a2",
         "statusBar.foreground": "#FFFFFF",
-        "statusBarItem.activeBackground": "#1593a2",
-        "statusBarItem.hoverBackground": "#1593a2"
+        "statusBarItem.activeBackground": "#1593a2"
     },
     "tokenColors": [
         {
@@ -38,7 +37,8 @@
           {
             "scope": [
                 "entity.name.function",
-                "support.type.property-name.css"
+                "support.type.property-name.css",
+                "markup.heading.markdown"
             ],
             "settings": { "foreground": "#50FA7B" }
           },
@@ -52,15 +52,23 @@
             "settings": { "foreground": "#FF75C9", "fontStyle": "bold" }
           },
           {
-            "scope": "constant",
+            "scope": [
+                "constant"
+            ],
             "settings": { "foreground": "#FFA111" }
           },
           {
-            "scope": "string.quoted",
+            "scope": [
+                "string.quoted",
+                "markup.list.numbered.markdown",
+                "markup.list.unordered.markdown"
+            ],
             "settings": { "foreground": "#F1FA8C" }
           },
           {
-            "scope": "constant.numeric",
+            "scope": [
+                "constant.numeric"
+            ],
             "settings": { "foreground": "#BD93F9" }
           },
           {
@@ -88,15 +96,14 @@
             "settings": { "foreground": "#50FA7B" }
           },
           {
-            "scope": "comment.block.html, comment.block.xml",
+            "scope": [
+                "comment.block.html",
+                "comment.block.xml",
+                "comment.block.css",
+                "comment"
+            ],
             "settings": { "foreground": "#6272A4", "fontStyle": "bold italic" }
           }
-
-
-
-
-
-
 
 
 
