@@ -3,11 +3,12 @@
     "type": "dark",
     "colors": {
         "activityBarBadge.background": "#1593a2",
+        "activityBar.foreground": "#f2ebe2",
         "editor.background": "#1D272C",
         "editor.foreground": "#f2ebe2",
         "editor.inactiveSelectionBackground": "#3A3D41",
         "editor.lineHighlightBackground": "#3E3E3E",
-        "editor.selectionBackground": "#515151",
+        "editor.selectionBackground": "#5A5A5A",
         "editorCursor.foreground": "#FFCC00",
         "editorIndentGuide.activeBackground": "#707070",
         "editorIndentGuide.background": "#3E3E3E",
@@ -15,11 +16,15 @@
         "gitDecoration.addedResourceForeground": "#459923",
         "gitDecoration.conflictingResourceForeground": "#FFA500",
         "gitDecoration.modifiedResourceForeground": "#62b8c7",
+        "gitDecoration.deletedResourceForeground": "#FF0000",
+        "gitDecoration.ignoredResourceForeground": "#7F7F7F",
+        "gitDecoration.untrackedResourceForeground": "#AA9DAA",
         "list.activeSelectionForeground": "#FFD700",
         "sideBar.background": "#0f1a1e",
         "statusBar.background": "#1593a2",
         "statusBar.foreground": "#FFFFFF",
-        "statusBarItem.activeBackground": "#1593a2"
+        "statusBarItem.activeBackground": "#1593a2",
+        "tab.activeBackground": "#515151"
     },
     "tokenColors": [
         {
@@ -70,10 +75,6 @@
                 "constant.numeric"
             ],
             "settings": { "foreground": "#BD93F9" }
-          },
-          {
-            "scope": "comment",
-            "settings": { "foreground": "#6272A4", "fontStyle": "bold italic" }
           },
           {
             "scope": "keyword.operator",

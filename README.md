@@ -2,19 +2,17 @@
 
 This sample color theme is for personal use and contains two TextMate themes.
 
-Text Mate themes describe the theming rules used for syntax highlighting. Each rule consists of one or more scope selectors and a set of styles. To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
-
-You can directly use .tmTheme files in your extensions or import/convert them with VS Code's extension generator [yo code](https://code.visualstudio.com/api/get-started/your-first-extension).
+Text Mate themes describe the theming rules used for syntax highlighting.
 
 ## Theme Descriptions
 
 ### Edisoncor Theme
 
-"Edisoncor Theme" is a dark theme designed to provide a comfortable coding experience with soft colors and balanced contrasts. This theme is ideal for working in low-light environments and reduces eye strain during long coding sessions.
+"Edisoncor Theme" is a dark theme designed to provide a comfortable coding experience with soft colors and balanced contrasts. This theme is ideal for working in low-light environments and reduces eye strain during long coding sessions. The main colors include a dark editor background (#1D272C) and light foreground text (#f2ebe2), with highlights in shades of blue and green.
 
 ### Edisoncor Light Theme
 
-"Edisoncor Light Theme" is a light theme that offers a clean and bright appearance. It is perfect for well-lit environments and provides excellent readability with vivid and well-defined colors.
+"Edisoncor Light Theme" is a light theme that offers a clean and bright appearance. It is perfect for well-lit environments and provides excellent readability with vivid and well-defined colors. The main colors include a light editor background (#FFFFFF) and dark foreground text (#000000), with highlights in shades of blue and orange.
 
 ## Repository
 
