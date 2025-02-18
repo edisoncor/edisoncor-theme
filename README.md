@@ -24,11 +24,11 @@ You can find the theme repository on [GitHub](https://github.com/edisoncor/ediso
 
 Sample Light
 
-![Sample light](./demo-light.png)
+![Sample light](https://github.com/edisoncor/edisoncor-theme/raw/main/themes/icons/demo-light.png)
 
 Sample Dark
 
-![Sample dark](./demo-dark.png)
+![Sample dark](https://github.com/edisoncor/edisoncor-theme/raw/main/themes/icons/demo-dark.png)
 
 ## VS Code API
 
